@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+## Coding Task
+
+For this coding task, please check your solution into an accessible repository such as GitHub and provide
+the link for us to review.
+
+1. Write a simple program that implements a timer countdown on a web page. The front end
+should be a web page (Angular preferred, but not required) that uses .Net web services API
+for the following:
+a. Retrieve the starting time from the web API as well as a short inventory list such as:
+&lt;inventory&gt;
+&lt;item&gt;&lt;Description&gt;Table&lt;/Description&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;/item&gt;
+&lt;item&gt;&lt;Description&gt;Chair&lt;/Description&gt;&lt;Count&gt;18&lt;/Count&gt;&lt;/item&gt;
+&lt;inventory&gt;
+To be written to disk
+b. Conduct the countdown within the web browser, visually displaying the countdown
+c. Call a second web API to indicate the timer is finished.

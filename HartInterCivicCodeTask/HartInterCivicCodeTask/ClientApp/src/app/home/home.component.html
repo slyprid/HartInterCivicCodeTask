@@ -1,14 +1,82 @@
-<h1>Hello, world!</h1>
-<p>Welcome to your new single-page application, built with:</p>
-<ul>
-  <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
-  <li><a href='https://angular.io/'>Angular</a> and <a href='http://www.typescriptlang.org/'>TypeScript</a> for client-side code</li>
-  <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
-</ul>
-<p>To help you get started, we've also set up:</p>
-<ul>
-  <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
-  <li><strong>Angular CLI integration</strong>. In development mode, there's no need to run <code>ng serve</code>. It runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
-  <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration automatically invokes <code>ng build</code> to produce minified, ahead-of-time compiled JavaScript files.</li>
-</ul>
-<p>The <code>ClientApp</code> subdirectory is a standard Angular CLI application. If you open a command prompt in that directory, you can run any <code>ng</code> command (e.g., <code>ng test</code>), or use <code>npm</code> to install extra packages into it.</p>
+
+
+<div class="accordion" id="codingTaskAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Coding Task
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#codingTaskAccordion">
+      <div class="accordion-body">
+        <p>
+          For this coding task, please check your solution into an accessible repository such as GitHub and provide
+          the link for us to review.
+        </p>
+
+        <p>
+          Write a simple program that implements a timer countdown on a web page. The front end
+          should be a web page (Angular preferred, but not required) that uses .Net web services API
+          for the following::
+        </p>
+        <ul>
+          <li>
+            <p>
+              Retrieve the starting time from the web API as well as a short inventory list such as:
+              <br />
+              &lt;inventory&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;item&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Description&gt;Table&lt;/Description&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Count&gt;2&lt;/Count&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/item&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;item&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Description&gt;Chair&lt;/Description&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Count&gt;18&lt;/Count&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/item&gt;
+              <br />
+              &lt;inventory&gt;
+              <br />
+              *** To be written to disk
+            </p>
+          </li>
+          <li>Conduct the countdown within the web browser, visually displaying the countdown</li>
+          <li>Call a second web API to indicate the timer is finished.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Countdown Timer
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#codingTaskAccordion">
+      <div class="accordion-body">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Data Retrieved from Web API
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#codingTaskAccordion">
+      <div class="accordion-body">
+        
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,12 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
-
-/* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow: 0 0 0 0.1rem #7160E8, 0 0 0 0.25rem #258cfb;
 }
 
 code {
@@ -17,4 +14,54 @@ code {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+@media (min-width: 992px) {
+  .lg\:max-h-d-logo {
+    max-height: 74px;
+  }
+}
+
+.max-h-m-logo {
+  max-height: 65px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: solid;
+}
+
+*, :after, :before {
+  border: 0 solid #dae1e7;
+  box-sizing: inherit;
+}
+
+.navbar {
+  background: #252526;
+  border-bottom: solid 2px #7160E8 !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  margin-left: 8px;
+}
+
+body {
+  background: #1F1F1F;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  border-color: #7160E8 !important;
+}
+
+.nav-link:hover {
+    color: #7160E8;
+}
+
+
+.accordion-header {
+  background-color: #252526 !important;
 }
