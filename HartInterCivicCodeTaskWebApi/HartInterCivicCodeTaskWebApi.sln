@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HartInterCivicCodeTaskWebApi", "HartInterCivicCodeTaskWebApi\HartInterCivicCodeTaskWebApi.csproj", "{1A696A57-84FC-4041-85F8-EDE8AD7430C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A696A57-84FC-4041-85F8-EDE8AD7430C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A696A57-84FC-4041-85F8-EDE8AD7430C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A696A57-84FC-4041-85F8-EDE8AD7430C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A696A57-84FC-4041-85F8-EDE8AD7430C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEFA3D11-0017-4F14-B1EE-89E0DFC338B3}
+	EndGlobalSection
+EndGlobal
