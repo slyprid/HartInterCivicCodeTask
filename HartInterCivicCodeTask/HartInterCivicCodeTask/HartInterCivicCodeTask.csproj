@@ -22,7 +22,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\config\config.service.ts" />
+    <None Remove="ClientApp\src\app\inventory\inventory.service.ts" />
+    <None Remove="ClientApp\src\app\time\time.service.ts" />
     <None Remove="ClientApp\src\assets\hart-logo-white.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ClientApp\src\app\config\config.service.ts" />
+    <Content Include="ClientApp\src\app\inventory\inventory.service.ts" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ClientApp\src\app\time\time.service.ts" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,5 @@
+{
+  "inventoryUrl":  "https://localhost:7168/api/Inventory",
+  "timeUrl": "https://localhost:7168/api/Time",
+  "localInventoryFile":  "assets/inventory.json"
+}

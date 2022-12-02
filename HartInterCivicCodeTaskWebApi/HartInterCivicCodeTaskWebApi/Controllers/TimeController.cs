@@ -10,13 +10,19 @@ namespace HartInterCivicCodeTaskWebApi.Controllers
         [HttpGet]
         public DateTime StartTime()
         {
-            return DateTime.Now;
+            return DateTime.Now.AddSeconds(20);
         }
 
-        [HttpPost("{endTime}")]
-        public void EndTime(DateTime endTime)
+        [HttpPost]
+        public void EndTime(string endTime)
         {
-            // Log endTime
+            var filename = "log.txt";
+            if (!System.IO.File.Exists(filename))
+            {
+                System.IO.File.Create(filename);
+            }
+
+            System.IO.File.AppendAllText(filename, $"{endTime}\r\n");
         }
     }
 }
